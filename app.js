@@ -40,6 +40,17 @@ var a = 2
 var b = 3
 var c = 27
 
+function numberofdogs() {
+  var numberofdogs = 0
+  for (var i = 0; i < numberofdogs.options.length; i++) {
+    numberofdogs++
+  }
+  return numberofdogs
+}
+
+document.getElementById("result").innerHTML = numberofdogs()
+
+
 function greetings() {
   if (b > c) {
     Greeeting = "hola";
